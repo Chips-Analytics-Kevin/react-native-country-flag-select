@@ -10,6 +10,7 @@
     "react-native-vector-icons": "^10.0.0"
   },
   "devDependencies": {
+    "@types/node": "^20.6.5",
     "@types/react": "^18.2.21",
     "@types/react-native": "^0.70.6"
   },

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import SvgUri from 'react-native-svg-uri';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { styles } from './styles/style';
 
 interface Props {
@@ -45,7 +44,7 @@ export default function CountryFlagSelect({ countryCode }: Props) {
       <TouchableOpacity style={styles.selectedCountry} onPress={toggleDropdown}>
         <SvgUri width={30} height={20} source={flag} />
         <Text style={styles.countryName}>{countryNames[selectedCountryCode]}</Text>
-        <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} size={20} color="#ccc" />
+        <FontAwesome name={isOpen ? 'chevron-up' : 'chevron-down'} size={20} color="#ccc" />
       </TouchableOpacity>
       {isOpen && (
         <View style={styles.countryList}>

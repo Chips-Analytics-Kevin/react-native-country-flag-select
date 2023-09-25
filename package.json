@@ -5,11 +5,13 @@
   "main": ".eslintrc.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2"
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "react-native-svg-uri": "^1.2.3",
+    "react-native-vector-icons": "^10.0.0"
   },
   "devDependencies": {
-    "@types/react": "^17.0.20",
-    "@types/react-native": "^0.65.0"
+    "@types/react": "^18.2.21",
+    "@types/react-native": "^0.70.6"
   },
   "scripts": {
     "test": "npm test"

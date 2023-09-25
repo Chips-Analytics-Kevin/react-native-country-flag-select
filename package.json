@@ -1,6 +1,6 @@
 {
   "name": "react-native-country-flag-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This library is currently compatible with React Native. Its primary purpose is to enable users to implement the selection of country flags in their mobile application",
   "main": ".eslintrc.js",
   "dependencies": {
